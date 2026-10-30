@@ -1,0 +1,5 @@
+logs/
+*.log
+verifier.db
+verifier.db-journal
+profile/

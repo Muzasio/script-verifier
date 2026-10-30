@@ -1,0 +1,26 @@
+{
+  "providers": [
+    "gemini",
+    "claude",
+    "deepseek"
+  ],
+  "roles": {
+    "research": "deepseek",
+    "challenge": "claude",
+    "recheck": "deepseek",
+    "final": "claude"
+  },
+  "browser_profile_dir": "./profile",
+  "timeouts_ms": {
+    "page_load": 30000,
+    "response_wait": 90000
+  },
+  "retries": 3,
+  "source_priority": [
+    "rfc_standard",
+    "official_docs",
+    "paper",
+    "reputable_technical",
+    "other"
+  ]
+}

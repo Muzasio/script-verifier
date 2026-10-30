@@ -1,0 +1,28 @@
+# Browser login data
+profile/
+
+# Runtime output
+diagnostics/
+logs/
+*.log
+*.db
+*.db-journal
+*.sqlite
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Build output and dependencies
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
