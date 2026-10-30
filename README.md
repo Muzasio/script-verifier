@@ -146,17 +146,12 @@ All settings are in `config.json` in the repo root.
 
 ## Status
 
-**Done**
-- All steps: find claims, research, challenge, recheck, correct, final check
-- Input, Progress, Claims and Result tabs
-- Saving to SQLite
-- Clear chat history on each AI site from the app
-
 **Tested**
 - Builds and runs on Linux
 - Full runs with short test scripts
 
 **Not tested yet**
+- Clear chat history on each AI site from the app
 - Long scripts (many claims)
 - Other Linux distributions and other operating systems
 - Release build (`tauri build`)
