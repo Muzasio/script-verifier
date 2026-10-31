@@ -55,14 +55,6 @@ flowchart LR
     H --> I[("SQLite<br/>verifier.db")]
 ```
 
-The app has three parts:
-
-| Part | Made with | Job |
-|---|---|---|
-| Window | React + Tauri | Input, Progress, Claims and Result tabs |
-| Orchestrator | Rust | Runs the steps, checks results, saves to SQLite |
-| Browser worker | Node + Playwright | Opens the AI chat pages and sends prompts |
-
 ## Quick start
 
 **Requirements:** Linux, Node.js 18 or newer, Rust 1.77 or newer, a C compiler, and the Tauri system libraries (WebKitGTK).
