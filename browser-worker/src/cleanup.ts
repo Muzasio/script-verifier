@@ -7,7 +7,6 @@ import { writeFileSync, appendFileSync, mkdirSync } from "node:fs";
 import type { Page } from "playwright";
 
 const STEP_TIMEOUT_MS = 8_000;
-const SETTLE_MS = 500;
 
 let LOG_PATH = "";
 function log(line: string): void {
